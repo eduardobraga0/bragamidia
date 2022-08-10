@@ -17,7 +17,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #ffc800;
+  --bs-yellow: #d7a800;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -39,7 +39,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #0dcaf0;
   --bs-dark: #212529;
   --bs-primary-rgb: 255, 200, 0;
   --bs-secondary-rgb: 108, 117, 125;
@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffff;
 }
 
 *,
@@ -3031,13 +3031,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #f7931e;
+  border-color: #f7931e;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  color: rgb(255, 255, 255);
+  background-color: #8a8a8a;
+  border-color: #8a8a8a;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -4053,7 +4053,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7673,6 +7673,7 @@ textarea.form-control-lg {
 }
 
 .text-center {
+  
   text-align: center !important;
 }
 
@@ -11329,8 +11330,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: auto;
+  width: 3.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11383,7 +11384,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11392,11 +11393,11 @@ p {
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
+    font-size: .25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11437,13 +11438,13 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2.0rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 4.0rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
